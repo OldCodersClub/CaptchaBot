@@ -1,6 +1,7 @@
 # Git
 .git
 .gitignore
+.github/
 
 # Docker
 docker-compose.yml
@@ -23,7 +24,5 @@ env_dist
 # user
 logs
 LICENSE
-Procfile
 README.md
 brief.txt
-runtime.txt
