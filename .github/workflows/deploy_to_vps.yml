@@ -39,8 +39,6 @@ jobs:
             export BOT_TOKEN=${{ secrets.CAPTCHA_BOT_TOKEN }};
             export CHAT_ID_1=${{ vars.CHAT_ID_1 }}
             export CHAT_ID_2=${{ vars.CHAT_ID_2 }}
-#            export CHAT_ID_3=${{ vars.CHAT_ID_3 }}
-#            export CHAT_ID_4=${{ vars.CHAT_ID_4 }}
             echo '--- LIST OF FILES ---';
             ls -al;
             echo '--- GIT PULL ---'
